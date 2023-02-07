@@ -16,16 +16,20 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-
 #cabecalho {
+  background-color: white;
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 0;
+  width: 100%
 }
 
 .picture-container {
   height: fit-content;
   padding: 20px;
   width: fit-content;
+  margin: 20px;
 }
 
 #minha_foto {
