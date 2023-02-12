@@ -17,12 +17,18 @@ body {
 }
 
 #cabecalho {
+  box-shadow: 1px 1px 10px 1px black;
   background-color: white;
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+
+#titulo {
+  text-align: center;
 }
 
 .picture-container {
@@ -33,21 +39,48 @@ body {
 }
 
 #minha_foto {
+  margin-top: 30px;
+  box-shadow: 1px 1px 10px 1px black;
   border-radius: 25px;
   width: 300px;
 }
 
+table {
+  margin: 30px;
+  width: fit-content;
+}
+
+table tr th {
+  box-shadow: 1px 1px 10px 1px black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .content {
-  width: 20%;
-  padding: 5px;
+  display: flex;
+  box-shadow: 1px 1px 10px 1px black;
+  border-radius: 10px;
+  width: 80%;
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+
+.content * {
+  margin: 15px;
 }
 
 .lessons-container {
-  align-items: flex-start;
+  margin: 30px;
+  justify-content: space-around;
   align-self: center;
   display: flex;
-  flex-direction: column;
-  width: 300px;
+  width: 1500px;
+}
+
+.lessons-container div {
+  box-shadow: 1px 1px 10px 1px black;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .lessons-container * {
@@ -62,4 +95,27 @@ h2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.lado-esquerdo {
+  text-align: center;
+  box-shadow: 1px 1px 10px 1px black;
+  padding: 30px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.lado-direito {
+  text-align: center;
+  box-shadow: 1px 1px 10px 1px black;
+  padding: 30px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.rodape {
+  box-shadow: 1px 1px 10px 1px black;
+  padding: 30px;
+  width: 160px;
+  border-radius: 10px;
 }
