@@ -1,4 +1,4 @@
-# 1-arturMucci-lessons-learned
+# lessons-learned
 
 ### Primeiro projeto feito por mim estudando na instituição trybe.
 <br>
